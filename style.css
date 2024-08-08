@@ -1,3 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #d8bcbc;
+}
+h1 {
+  color: blue;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: aqua;
+  width: 65%;
+  height: 100%;
+  margin: auto;
+  border: 2px solid blueviolet;
+  justify-content: center;
+  align-content: flex-end;
+}
+div {
+  /* border: 2px solid black; */
+  width: 150px;
+  height: 100px;
+  /* background-color: blue; */
+}
+.satu {
+  background-color: bisque;
+}
+.dua {
+  background-color: blue;
+}
+.tiga {
+  background-color: blanchedalmond;
 }
